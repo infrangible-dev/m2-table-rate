@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<!--
+ * @author      Andreas Knollmann
+ * @copyright   2014-2024 Softwareentwicklung Andreas Knollmann
+ * @license     http://www.opensource.org/licenses/mit-license.php MIT
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Infrangible_TableRate::infrangible_tablerate" title="Table Rates" module="Infrangible_TableRate" sortOrder="1010" resource="Infrangible_TableRate::infrangible_tablerate" parent="Infrangible_Foundation::menu"/>
+        <add id="Infrangible_TableRate::infrangible_tablerate_manage" title="Manage" module="Infrangible_TableRate" sortOrder="10" resource="Infrangible_TableRate::infrangible_tablerate" parent="Infrangible_TableRate::infrangible_tablerate" action="table_rate/tableRate/index"/>
+    </menu>
+</config>
