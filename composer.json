@@ -1,11 +1,18 @@
 {
     "name": "infrangible/m2-table-rate",
-    "description": "Infrangible Magento 2 Table Rate",
+    "description": "Lets you view, add, edit and delete the rows of Magento's table rate shipping directly in the admin, instead of exporting and importing CSV files.",
     "type": "magento2-module",
     "version": "1.1.1",
     "license": "MIT",
     "keywords": [
-        "Magento"
+        "Magento",
+        "Magento 2",
+        "Adobe Commerce",
+        "Shipping",
+        "Admin tools",
+        "edit table rates in the admin",
+        "table rate shipping grid",
+        "table rates without CSV"
     ],
     "homepage": "https://github.com/infrangible-dev/m2-table-rate",
     "authors": [
